@@ -13,13 +13,34 @@ catImg.addEventListener('click', ()=>{
 });
 
 horseImg.addEventListener('click', ()=>{
-  console.log('clicking the horse');
-  horseSound.play(); 
+    console.log('clicking the horse');
+    horseSound.play(); 
 
 });
 
 dogImg.addEventListener('click', ()=>{
-  console.log('clicking the dog');
-  dogSound.play();
+    console.log('clicking the dog');
+    dogSound.play();
 
+});
+
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'd') {
+        dogSound.play();
+  
+    }
+});
+
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'c') {
+        catSound.play();
+
+    }
+});
+
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'h') {
+        horseSound.play();
+
+    }
 });

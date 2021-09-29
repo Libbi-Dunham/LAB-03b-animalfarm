@@ -18,6 +18,11 @@ flex-direction: row;
 }
 
 body {
-    background-color: grey;
+    background-color: #7293A0;
+}
+
+h1 {
+    color: #90323D;
+    text-align: center;
 }
 
