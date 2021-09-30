@@ -8,7 +8,7 @@ main {
     width: 30vw;
     border-radius: 20%;
     padding: 10px;
-
+    
 }
 
 .animals :active {
@@ -22,10 +22,10 @@ flex-direction: row;
 }
 
 body {
-    background-color: #7293A0;
+    background-color: #087E8B;
 }
 
 h1 {
-    color: #90323D;
+    color: #BFD7EA;
     text-align: center;
 }
