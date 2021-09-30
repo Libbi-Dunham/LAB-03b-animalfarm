@@ -11,10 +11,14 @@ main {
 
 }
 
+.animals :active {
+    transform: rotate(0.5turn);
+}
+
 .animals {
 
 display: flex;
-flex-direction: row;
+flex-direction: row; 
 }
 
 body {
@@ -25,4 +29,3 @@ h1 {
     color: #90323D;
     text-align: center;
 }
-
